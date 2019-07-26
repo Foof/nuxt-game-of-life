@@ -1,5 +1,5 @@
 <template>
-  <div class="game-wrapper">
+  <div class="game-wrapper text-center">
     <table class="shadow mx-auto">
       <tbody>
         <tr v-for="(i, row) in rows" :key="'row-' + i">
