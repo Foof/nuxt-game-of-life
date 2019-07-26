@@ -1,6 +1,6 @@
 <template>
   <div class="game-wrapper">
-    <table class="shadow">
+    <table class="shadow mx-auto">
       <tbody>
         <tr v-for="(i, row) in rows" :key="'row-' + i">
           <td v-for="(k, col) in cols" :key="'col-' + k">
