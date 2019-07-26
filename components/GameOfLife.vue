@@ -26,7 +26,7 @@
 
 <script>
 import store from '../store.js'
-import Cell from './cell.vue'
+import Cell from './Cell.vue'
 
 export default {
   components: {
